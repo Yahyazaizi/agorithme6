@@ -1,0 +1,22 @@
+algo ex16
+Algorithme equationa2eme
+Variablesa, b, c, xl, x2, x, d: réel Début
+
+Ecrire ("Veuilles saisir les valeurs de a, b et c: ")
+
+Lire( a, b, c)
+
+Si d < 0 alors
+
+Ecrire ("Pas de solutions réelles")
+Sinon
+Si d = 0 alors
+x <-- (-b)/(2*a)
+Ecrire ("La solution est: ",x)
+Sinon
+x1 <-- ( -b - racine ( d ) ) / ( 2 * a )
+x2 <-- ( -b + racine ( d) ) / (2 * a )
+Ecrire ("Les solutions sont: ", x1, et " , x2)
+fin Si
+fin Si
+Fin
